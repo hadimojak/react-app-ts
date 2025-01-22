@@ -1,7 +1,14 @@
+import React from "react";
+// import {JSX} from "react";
+import TodoList from "./components/TodoList";
 
-function App(): JSX.Element {
-
-  return <div className="App"></div>;
-}
+const App: React.FC = () => {
+  // const App: JSX.Element = () => {
+  return (
+    <div className="App">
+      <TodoList />
+    </div>
+  );
+};
 
 export default App;
